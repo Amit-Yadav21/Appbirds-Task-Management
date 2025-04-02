@@ -17,7 +17,7 @@ router.post("/login", validateLogin, handleValidationErrors, loginUser);
 router.get("/all/data", getAllUsers);
 
 // Route to get user by ID
-router.get("/all/data/by/:id", validateGetUserById, handleValidationErrors, getUserById); 
+router.get("/single/data/by/:id", validateGetUserById, handleValidationErrors, getUserById); 
 
 // Route to update profile (protected)
 router.put("/update/profile", validateProfileUpdate, authMiddleware, updateUserProfile); 
