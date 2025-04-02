@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv"; 
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoutes.js";
+import taskRoutes from "./routes/taskRoutes.js";
 import cookieParser from "cookie-parser";
 
 // Load environment variables from .env file
@@ -21,6 +22,7 @@ connectDB();
 
 // Define API route for user-related endpoints
 app.use("/api/users", userRoutes); 
+app.use("/api/tasks", taskRoutes); 
 
 // Start the server
 app.listen(process.env.PORT, () => {
