@@ -4,6 +4,7 @@ import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoutes.js";
 import taskRoutes from "./routes/taskRoutes.js";
 import cookieParser from "cookie-parser";
+import notFoundHandler from "./middleware/notFoundHandler.js";
 
 // Load environment variables from .env file
 dotenv.config(); 
@@ -23,6 +24,9 @@ connectDB();
 // Define API route for user-related endpoints
 app.use("/api/users", userRoutes); 
 app.use("/api/tasks", taskRoutes); 
+
+// notFound Handling Middleware
+app.use(notFoundHandler) 
 
 // Start the server
 app.listen(process.env.PORT, () => {
