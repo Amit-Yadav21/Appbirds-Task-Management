@@ -337,7 +337,7 @@ This will start the application on the specified port.
 ## 🔗 Appbirds-Task-Management Postman Documentation Link
 <p align="center">
   <a href="https://documenter.getpostman.com/view/22765203/2sB2cSgiH5" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Postman%20Documentation-🔗%20Here-blue?style=for-the-badge" alt="Postman Documentation Link">
+    <img src="https://img.shields.io/badge/Postman%20Documentation%20Link-Click%20And%20Open%20IN%20Browser-orange?style=for-the-badge" alt="Open API in Postman">
   </a>
 </p>
 
