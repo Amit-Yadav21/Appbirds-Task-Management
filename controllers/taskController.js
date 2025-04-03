@@ -28,7 +28,7 @@ const createTask = async (req, res) => {
         res.status(500).json({ message: "Error creating task", error });
     }
 };
-
+``
 const getTasks = async (req, res) => {
     try {
         const tasks = await Task.find().populate("user", "name email");
@@ -134,7 +134,7 @@ const changeTaskStatus = async (req, res) => {
         }
 
         // Ensure that the logged-in user is the owner of the task
-        if (task.user.toString() !== req.user.id) {
+        if (task.user._id.toString() !== req.user.id.toString()) {
             return res.status(403).json({ message: "Unauthorized: You can only change the status of your own tasks" });
         }
 
