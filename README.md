@@ -18,6 +18,7 @@
     - [`PUT /api/users/update/profile`](#put-apiusersupdateprofile)
     - [`DELETE /api/users/delete/loggedIn`](#delete-apiusersdeleteloggedin)
   - [When there is an error in the routes ⚠️❌](#when-there-is-an-error-in-the-routes-️)
+  - [Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.](#note--the-task-api-should-function-similarly-to-the-user-api-if-a-route-is-not-found-it-should-return-a-path-not-found-error-additionally-proper-validation-should-be-implemented-to-handle-input-errors-and-return-meaningful-validation-error-messages)
   - [🔗 Appbirds-Task-Management Postman Documentation Link](#-appbirds-task-management-postman-documentation-link)
   - [📜 Project Deployment Information](#-project-deployment-information)
   
@@ -292,7 +293,7 @@ This will start the application on the specified port.
       }
     ```
 
-  - **When trying to delete the same ID that has already been deleted**
+- **C) When trying to delete the same ID that has already been deleted**
     - **req.params.id** : localhost:8005/api/tasks/delete/by/675dc36eeae303526a4f2f0a
     - **Response**
     ```json
@@ -316,7 +317,7 @@ This will start the application on the specified port.
       }
     ```
 
-- **C) When update other user task by ID**
+- **D) When update other user task by ID**
     - **Update Request URL** : http://localhost:8005/api/tasks/update/by/67ed57c8fd0ecf3c8fc8507d
     - **Body** : 
         ```json
@@ -333,6 +334,7 @@ This will start the application on the specified port.
         }
       ```
 ---
+## Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.
 
 ## 🔗 Appbirds-Task-Management Postman Documentation Link
 <p align="center">
