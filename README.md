@@ -344,6 +344,8 @@ This will start the application on the specified port.
   </a>
 </p>
 
+🔗 🟠 **Postman URL:** [Postman Documentation Link](https://documenter.getpostman.com/view/22765203/2sB2cSgiH5)
+
 ---
 
 ## 📜 Project Deployment Information
