@@ -19,8 +19,9 @@
     - [`DELETE /api/users/delete/loggedIn`](#delete-apiusersdeleteloggedin)
   - [When there is an error in the routes ⚠️❌](#when-there-is-an-error-in-the-routes-️)
   - [Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.](#note--the-task-api-should-function-similarly-to-the-user-api-if-a-route-is-not-found-it-should-return-a-path-not-found-error-additionally-proper-validation-should-be-implemented-to-handle-input-errors-and-return-meaningful-validation-error-messages)
-  - [🔗 Appbirds-Task-Management Postman Documentation Link](#-appbirds-task-management-postman-documentation-link)
+- [🟠 🔗 Appbirds-Task-Management Postman Documentation Link](#--appbirds-task-management-postman-documentation-link)
   - [📜 Project Deployment Information](#-project-deployment-information)
+- [**Backend Deployment Live Link for "Find All Users" API**](#backend-deployment-live-link-for-find-all-users-api)
   
 ---
 
@@ -336,7 +337,7 @@ This will start the application on the specified port.
 ---
 ## Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.
 
-## 🔗 Appbirds-Task-Management Postman Documentation Link
+# 🟠 🔗 Appbirds-Task-Management Postman Documentation Link
 <p align="center">
   <a href="https://documenter.getpostman.com/view/22765203/2sB2cSgiH5" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Postman%20Documentation%20Link-Click%20And%20Open%20IN%20Browser-orange?style=for-the-badge" alt="Open API in Postman">
@@ -376,4 +377,12 @@ This will start the application on the specified port.
   ```
   This sets up the necessary configuration for deploying the backend on Vercel.
 
-- **Backend Deployment Live Link for "Find All Users" API**
+# **Backend Deployment Live Link for "Find All Users" API**   
+
+<p align="left">
+  <a href="https://appbirds-task-management.vercel.app/api/users/all/data" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Deployment" style="border-radius: 8px;">
+  </a>
+</p>
+
+🔗 **Live API URL:** [Find All Users](https://appbirds-task-management.vercel.app/api/users/all/data)
