@@ -18,7 +18,7 @@
     - [`PUT /api/users/update/profile`](#put-apiusersupdateprofile)
     - [`DELETE /api/users/delete/loggedIn`](#delete-apiusersdeleteloggedin)
   - [When there is an error in the routes ⚠️❌](#when-there-is-an-error-in-the-routes-️)
-  - [Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.](#note--the-task-api-should-function-similarly-to-the-user-api-if-a-route-is-not-found-it-should-return-a-path-not-found-error-additionally-proper-validation-should-be-implemented-to-handle-input-errors-and-return-meaningful-validation-error-messages)
+  - [📝 Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.](#-note--the-task-api-should-function-similarly-to-the-user-api-if-a-route-is-not-found-it-should-return-a-path-not-found-error-additionally-proper-validation-should-be-implemented-to-handle-input-errors-and-return-meaningful-validation-error-messages)
 - [🟠 🔗 Appbirds-Task-Management Postman Documentation Link](#--appbirds-task-management-postman-documentation-link)
   - [📜 Project Deployment Information](#-project-deployment-information)
 - [**Backend Deployment Live Link for "Find All Users" API**](#backend-deployment-live-link-for-find-all-users-api)
@@ -335,7 +335,7 @@ This will start the application on the specified port.
         }
       ```
 ---
-## Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.
+## 📝 Note : The Task API should function similarly to the User API. If a route is not found, it should return a "Path Not Found" error. Additionally, proper validation should be implemented to handle input errors and return meaningful validation error messages.
 
 # 🟠 🔗 Appbirds-Task-Management Postman Documentation Link
 <p align="center">
